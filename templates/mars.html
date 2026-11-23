@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Mars, the cold, rocky planet with ancient landscapes and active robotic missions.">
+  <title>Cosmic World | Mars</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/content.css">
+  <link rel="stylesheet" href="../styles/object-detail.css">
+  <link rel="stylesheet" href="../styles/mars.css">
+</head>
+<body class="content-page object-detail mars-detail">
+  <div class="browser-page">
+    <header class="masthead">
+      <div class="brand">Cosmic World</div>
+      <p class="tagline">A considered guide to our universe</p>
+    </header>
+    <nav class="navbar nav-bar" aria-label="Main navigation">
+      <div class="container-fluid p-0">
+        <ul class="navbar-nav w-100">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="solar-system.html" aria-current="location">Solar System</a></li>
+          <li class="nav-item"><a class="nav-link" href="space-exploration.html">Space Exploration</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row g-0 page-content object-layout">
+      <aside class="col-12 col-md-3 sidebar">
+        <h2>Explore the Solar System</h2>
+        <ul class="place-list">
+          <li><a href="sun.html"><img src="../assets/images/sun-sdo.jpg" alt=""><span>The Sun</span></a></li>
+          <li><a href="earth.html"><img src="../assets/images/earthrise.png" alt=""><span>Earth</span></a></li>
+          <li><a href="mars.html" aria-current="page"><img src="../assets/images/mars-curiosity.jpg" alt=""><span>Mars</span></a></li>
+          <li><a href="jupiter.html"><img src="../assets/images/jupiter-juno.jpg" alt=""><span>Jupiter</span></a></li>
+          <li><a href="small-bodies.html"><img src="../assets/images/bennu-closeup.jpg" alt=""><span>Small bodies</span></a></li>
+        </ul>
+        <h2 class="side-heading">More to explore</h2>
+        <ul>
+          <li><a href="solar-system.html">Solar System overview</a></li>
+          <li><a href="space-exploration.html">Space exploration</a></li>
+        </ul>
+      </aside>
+
+      <main class="col-12 col-md-9 main-section">
+        <p class="topic-breadcrumb"><a href="solar-system.html">Solar System</a> / Mars</p>
+        <span class="section-label">The red planet</span>
+        <h1>Mars</h1>
+        <p class="lead">Mars is a cold, rocky world with a thin atmosphere, towering volcanoes and landscapes that preserve clues to a wetter past.</p>
+        <figure class="feature-figure object-hero">
+          <img src="../assets/images/mars-curiosity.jpg" alt="Curiosity's first color view of the rocky Martian landscape">
+          <figcaption>Curiosity's first color landscape from Mars. Credit: NASA/JPL-Caltech/Malin Space Science Systems.</figcaption>
+        </figure>
+
+        <section class="object-facts" aria-label="Mars facts">
+          <div class="object-fact"><span>Position</span><strong>Fourth planet from the Sun</strong></div>
+          <div class="object-fact"><span>Length of a day</span><strong>About 24 hours 37 minutes</strong></div>
+          <div class="object-fact"><span>Natural moons</span><strong>Two: Phobos and Deimos</strong></div>
+        </section>
+
+        <section>
+          <h2>A world of ancient landscapes</h2>
+          <p>Mars has a rusty colour because iron-rich minerals in its soil have oxidised. It is home to enormous volcanoes, deep canyons, impact craters and polar ice. Features on the surface show that liquid water flowed there in the distant past.</p>
+          <h2>Why missions visit Mars</h2>
+          <p>Orbiters map the planet and study its atmosphere, while landers and rovers examine the surface directly. These missions help scientists understand how Mars changed over time and whether ancient environments could once have supported microbial life.</p>
+        </section>
+
+        <section class="audio-panel" aria-label="Mars page audio">
+          <h2>Listen to Mars</h2>
+          <p>NASA's InSight seismometer captured vibrations from Martian wind moving the lander's solar panels. This version is raised two octaves to make the data audible; it is not ordinary airborne sound.</p>
+          <audio controls preload="metadata" aria-label="NASA InSight sonification of wind vibrations on Mars">
+            <source src="../assets/audio/mars-insight-wind.wav" type="audio/wav">
+            Your browser does not support audio playback.
+          </audio>
+          <p class="pdf-link"><a href="../assets/audio/mars-insight-wind.wav" download>Download the Mars audio</a></p>
+          <p class="pdf-link"><a href="https://www.nasa.gov/sounds-from-beyond/" target="_blank" rel="noopener">NASA source and audio credits</a></p>
+        </section>
+      </main>
+    </div>
+    <footer class="site-footer">&copy; 2026 Cosmic World. Learn about the worlds in our Solar System.</footer>
+  </div>
+</body>
+</html>
