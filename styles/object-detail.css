@@ -29,8 +29,8 @@
   border-radius: 11px;
   background: linear-gradient(
     145deg,
-    var(--topic-glow, rgba(255, 255, 255, 0.05)),
-    rgba(255, 255, 255, 0.015)
+    var(--topic-glow, rgba(38, 119, 168, 0.1)),
+    rgba(241, 246, 250, 0.9)
   );
 }
 .object-fact span {
@@ -61,7 +61,7 @@
   font-size: 12px;
 }
 .topic-breadcrumb a {
-  color: #9bcdf0;
+  color: #176895;
   text-decoration: none;
 }
 .topic-breadcrumb a:hover {
